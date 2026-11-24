@@ -1,9 +1,8 @@
 ﻿using Foundation;
 
-namespace TabbedPageSample;
-
-[Register("AppDelegate")]
-public class AppDelegate : MauiUIApplicationDelegate
-{
-	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+namespace TabbedPageSample {
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate {
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
 }
