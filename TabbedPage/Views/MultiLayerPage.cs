@@ -3,9 +3,7 @@ using System.Collections.Specialized;
 
 namespace TabbedPageSample.Views;
 
-public class MultiLayerPage : ContentPage, IContentView {
-
-    IView IContentView.PresentedContent { get => Children[0]; }
+public class MultiLayerPage : ContentPage {
 
     public MultiLayerPage()
     {
